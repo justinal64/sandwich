@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order a Sandwich</title>
+</head>
+<body>
+    <div>
+        <div class="bread">
+            <span>Bread:</span>
+            <input type="checkbox" name="bread" value="white">White
+            <input type="checkbox" name="bread" value="wheat">Wheat
+            <input type="checkbox" name="bread" value="no_bread">No Bread
+        </div>
+        <div class="meat">
+            <span>Meats:</span>
+            <input type="checkbox" name="meat" value="ham">Ham
+            <input type="checkbox" name="meat" value="turkey">Turkey
+            <input type="checkbox" name="meat" value="bacon">Bacon
+            <input type="checkbox" name="meat" value="no_meat">No Meat
+        </div>
+        <div class="cheese">
+            <span>Chese:</span>
+            <input type="checkbox" name="cheese" value="swiss">Swiss
+            <input type="checkbox" name="cheese" value="american">American
+            <input type="checkbox" name="cheese" value="provolone">Provolone
+            <input type="checkbox" name="cheese" value="no_cheese">No Cheese
+        </div>
+        <div class="condiments">
+            <span>Condiments:</span>
+            <input type="checkbox" name="condiments" value="ketchup">Ketchup
+            <input type="checkbox" name="condiments" value="mustard">Mustard
+            <input type="checkbox" name="condiments" value="mayo">Mayo
+            <input type="checkbox" name="condiments" value="no_condiments">No Condiments
+        </div>
+        <div class="veggies">
+            <span>Veggies:</span>
+            <input type="checkbox" name="veggies" value="onion">Onion
+            <input type="checkbox" name="veggies" value="pickle">Pickle
+            <input type="checkbox" name="veggies" value="lettuce">Lettuce
+            <input type="checkbox" name="veggies" value="no_veggies">No Veggies
+        </div>
+    </div>
+    <div id="output"></div>
+    <script src="js/SandwichMaker.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
+
+
+
+
+<!--
+a section of options for each sandwich part
+the ability to select multiple, or zero, choices for each section (such as turkey and bacon, or "no meat")
+an empty DOM element into which the final sandwich order and its cost will be inserted
+bread
+meat
+cheese
+condiments
+veggies -->
