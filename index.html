@@ -5,34 +5,34 @@
 </head>
 <body>
     <div>
-        <div class="bread">
+        <div id="bread-chooser">
             <span>Bread:</span>
             <input type="checkbox" name="bread" value="white">White
             <input type="checkbox" name="bread" value="wheat">Wheat
             <input type="checkbox" name="bread" value="no_bread">No Bread
         </div>
-        <div class="meat">
+        <div id="meat-chooser">
             <span>Meats:</span>
             <input type="checkbox" name="meat" value="ham">Ham
             <input type="checkbox" name="meat" value="turkey">Turkey
             <input type="checkbox" name="meat" value="bacon">Bacon
             <input type="checkbox" name="meat" value="no_meat">No Meat
         </div>
-        <div class="cheese">
+        <div id="cheese-chooser">
             <span>Cheese:</span>
             <input type="checkbox" name="cheese" value="swiss">Swiss
             <input type="checkbox" name="cheese" value="american">American
             <input type="checkbox" name="cheese" value="provolone">Provolone
             <input type="checkbox" name="cheese" value="no_cheese">No Cheese
         </div>
-        <div class="condiments">
+        <div id="condiment-chooser">
             <span>Condiments:</span>
             <input type="checkbox" name="condiments" value="ketchup">Ketchup
             <input type="checkbox" name="condiments" value="mustard">Mustard
             <input type="checkbox" name="condiments" value="mayo">Mayo
             <input type="checkbox" name="condiments" value="no_condiments">No Condiments
         </div>
-        <div class="veggies">
+        <div id="veggie-chooser">
             <span>Veggies:</span>
             <input type="checkbox" name="veggies" value="onion">Onion
             <input type="checkbox" name="veggies" value="pickle">Pickle
@@ -40,7 +40,10 @@
             <input type="checkbox" name="veggies" value="no_veggies">No Veggies
         </div>
     </div>
-    <div id="output"></div>
+    <div>
+    <span>Cost of Sandwich:</span>
+        <input type="textarea" id="output">
+    </div>
 
     <script src="js/SandwichMaker.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/Meat.js" type="text/javascript" charset="utf-8"></script>
@@ -48,6 +51,7 @@
     <script src="js/Bread.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/Condiments.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/Veggies.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/DOMHandler.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
